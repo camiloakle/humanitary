@@ -110,3 +110,15 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px; /* Reducir el padding en dispositivos móviles */
+    }
+    .logo {
+        width: 100px; /* Reducir el tamaño del logo en dispositivos móviles */
+    }
+    h1 {
+        font-size: 18px; /* Reducir el tamaño del texto en dispositivos móviles */
+    }
+}
